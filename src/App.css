@@ -1,0 +1,21 @@
+body{
+  background: #000;
+  color:white;
+  /* margin:auto ; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* index.css or App.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+.text-outline-white {
+  color: black;
+  -webkit-text-stroke: 2px white; 
+}
